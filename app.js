@@ -16,7 +16,7 @@ mongoose.connect(url, {
 })
 
 app.get("/", (req, res) => {
-    res.send("server is ready")
+    res.send("server is ready to run and this the me testing again")
     res.end();
 })
 
